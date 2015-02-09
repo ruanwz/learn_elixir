@@ -25,6 +25,7 @@ defmodule LearnElixir.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
+    #[{:benchmark, git: "https://github.com/meh/elixir-benchmark.git"}]
     []
   end
 end

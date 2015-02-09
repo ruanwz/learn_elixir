@@ -1,0 +1,1 @@
+%{"benchmark": {:git, "https://github.com/meh/elixir-benchmark.git", "c8a48af16101095a4729ec7601139f516b68fbcb", []}}
