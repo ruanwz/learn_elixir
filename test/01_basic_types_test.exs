@@ -51,7 +51,7 @@ defmodule BasicTypesTest do
     assert length(x)==4
   end
 
-  test "concatenate and subtracte list" do
+  test "concatenate and subtract list" do
     x = [1,2]
     y=[2,3]
     assert x ++ y == [1,2,2,3]
