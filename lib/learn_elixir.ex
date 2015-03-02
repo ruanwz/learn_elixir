@@ -1,5 +1,5 @@
 defmodule LearnElixir do
-  @doc ~S"""
+  @doc """
   ## Examples
     iex> LearnElixir.plus(1,2)
     3

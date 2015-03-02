@@ -116,8 +116,8 @@ defmodule ProcessesTest do
     {:ok, pid} = KV.start_link
     Process.register(pid, :kv)
 
-    send pid, {:put, :hello, "world"}
-    send pid, {:get, :hello, self()}
+    send :kv, {:put, :hello, "world"}
+    send :kv, {:get, :hello, self()}
     value = receive do
       val -> val
     end
